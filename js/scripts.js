@@ -5,13 +5,12 @@ function pigLatin(word) {
   if (vowels.includes(word[0])) {
     return word.concat("way");
   } else {
-    for (let i=0; i<word.length; i++) {
-      
+    for (let i of word) {
+
      
-      word = word.slice[i]
-    } (i)
-  }
-}
+   
+// word = word.slice[i]
+
 
 //user interface logic
 $(document).ready(function(event) {
